@@ -1,5 +1,4 @@
 # Athena-Submission-Cats
-learning to use github!
 
 <!DOCTYPE html>
 <head>I love cats!</head>
