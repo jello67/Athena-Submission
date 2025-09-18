@@ -8,12 +8,12 @@ body {
 .header{
     text-align: center;
     margin-bottom: 20px;
-    padding: 20px;
+    padding: 20;
     background-color: blanchedalmond;
     border-radius: 8px;
     font-size: 36px;
     font-weight: bold;
-    color:rgba(90, 100, 108, 0.609); 
+    color:rgba(90, 100, 108, 0.609);
 }
 .description{
     margin-bottom: 12px;
@@ -39,31 +39,42 @@ body {
     width: auto;
 }
 
-.chocolatecake{
+.chocolate-cake{
 display: block;
-margin-top: -200;
-margin-left: 0px; 
-margin-right: 200px; 
-height: 400px;
-width: min-content;
+    margin: auto;
+    height: auto;    
+    width: auto;
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: auto;
+    height: auto;
+    width: auto;                        
 
 }
 
-.vanillacake{
- display: block;
- margin-top: -400;
- margin-left: 0px; 
-margin-right: auto; 
-height: 400px;
+.vanilla-cake{
+display: block;
+    margin: auto;
+    height: auto;
+    width: auto;
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: auto;
+    height: auto;
+    width: auto;
     
 }
 
-.strawberrycake{
+.strawberry-cake{
 display: block;
-margin-top: -600;
-margin-left: 0px; 
-margin-right: auto; 
-height: 400px;
+    margin: auto;
+    height: auto;
+    width: auto;
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: auto;
+    height: auto;
+    width: auto;
     
 }
 
