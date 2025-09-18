@@ -41,16 +41,29 @@ body {
 
 .chocolatecake{
 display: block;
+margin-top: -200;
+margin-left: 0px; 
+margin-right: 200px; 
+height: 400px;
+width: min-content;
 
 }
 
 .vanillacake{
-    display: block;
+ display: block;
+ margin-top: -400;
+ margin-left: 0px; 
+margin-right: auto; 
+height: 400px;
     
 }
 
 .strawberrycake{
-    display: block;
+display: block;
+margin-top: -600;
+margin-left: 0px; 
+margin-right: auto; 
+height: 400px;
     
 }
 
