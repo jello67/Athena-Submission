@@ -1,2 +1,2 @@
 # Athena-Submission
-This is my first time using github! This is my first project using the Tribute Guided Track! I chose to make it on cakes as they are my favorite food. I love to bake in my free time and love sharing my passion for cakes with others!
+This is my first time using github! This is my first project using the Tribute Guided Track! Its called a Cake Tribute page. I chose to make it on cakes as they are my favorite food. I love to bake in my free time and love sharing my passion for cakes with others so I chose to make this project. I made my project using HTML and CSS. I struggled with persistent bugs but learned new ways to use CSS and HTML and not to overlook even the most simplest of details as they can be the hugest of problems.
