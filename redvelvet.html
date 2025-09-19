@@ -1,17 +1,28 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
     <meta content="width=device-width">
-    <title>Red Velvet Cake</title>
+    <title>Carrot Cake</title>
     <style>
-       h1 {
-            background: rgba(255, 255, 255, 0.9);
-            padding: 20px;
-            border-radius: 15px;
-            color:blanchedalmond;
-            margin-bottom: 30px;
-        }
+         body {
+    font-family: Courier;
+    background: blanchedalmond;
+    margin:0;
+    padding:20px;
+    color:rgb(185, 179, 171);
+}
+.header{
+    padding: 21px;
+    border-radius: 15px;
+    background: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: blanchedalmond;
+    font-size: 36px;
+    font-weight: bold;
+    color:rgba(90, 100, 108, 0.609);
+}
         .nav-menu {
             background: rgba(165, 152, 152, 0.8);
             padding: 15px;
@@ -23,13 +34,15 @@
             font-weight: bold;
             font-size: 15px;
         }
-        body {
-            font-family: serif;
-            font-size: 18px;
-            color: #fbfbc7;
-            background: linear-gradient(135deg, #f3e5f5 0%, #9c27b0 100%);
-            margin: 0;
-            padding: 20px;
+        .description{
+    margin-bottom: 12px;
+    background: rgb(255, 255, 255);
+    padding: 21px;
+    border-radius: 15px;
+    font-size: 21px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
         }
            
         </style>
@@ -46,22 +59,8 @@
         <a href="contact.html">Contact</a>
         </ul>
     </nav>
-
-
-    <p>The Grand Red Velvet known for its sharp, distinct red color.
-
-        Contrary to popular belief that Red Velvet is simply dyed Chocolate cake,
-
-        Red Velvet is made of cocoa and its unique flavor profile comes from
-        the mixture of buttermilk 
-        
-        and an interesting ingredient-
-        
-        Vinegar!
-
     <h1> 
         Common Toppings on Red Velvet cake are:
-        </h1>
         <ul>
 
         <li> cream cheese frosting </li>
@@ -71,10 +70,21 @@
 
 
 </ul>
+</h1>
 
 <img class="redvelvet-cake"
-src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUSExIVFRUVGBUWFxUYFxcYGhYXFhgXFhUYFRgYHSggGBolHRcVITEhJSktLi4uFx8zODMtNygtLisBCgoKDg0OGxAQGy0mICUtLS8tLS0tKy0vLy0tLS0tLS0tLi0tLS01LS4vLS0tLy0rLS0tLS0tLy0tKy0tLS0tLf/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAADAAIEBQYBBwj/xAA8EAACAQIEBAQEBAQGAgMBAAABAhEAAwQSITEFQVFhBhMicTKBkaEUUrHBI0LR8AcVcpLh8TNiQ4LCNP/EABoBAQADAQEBAAAAAAAAAAAAAAABAgMEBQb/xAAuEQACAgECBAQFBQEBAAAAAAAAAQIRAxIhBDFBUSIyYZFxgaGx8BPB0eHxMwX/2gAMAwEAAhEDEQA/APYXZulOtg9KJFIGgGGyJk608IOlNN2hPiO1Ad8uDI+dEF0VFZprmXt9qAmZ65UU2GpQRpFAHNuedN/Dr0pjoeU1wIe9AduWo2YihrdYfzA+4p74c/moRQgbA0ARsUQJIB9jQmx6kEagx0riWO1EbCryoA9i+pAhhRqr0wC89aN+GA2LD50BKrhqPlcbMD7j+lcN5xuoPsf60BIqNjfh+a/qK6MYOYYfL+lCxOIQ5YYfEv61KBMNcrprlQBUqVKgG1Hx5/ht7GpFRuIfBHUgfUigDqugHYVHxdtFUuVAjnHeP3qVQMaPQfl+oqQV34xe/wBKVHyDpSqSpZC4OtOdRGtR7c0TOOdVLHB2ogt9aSfSkbwoB4UdK7TQ9LOOtAOodx4pG6OVDuerSgCq9NN4bUy3hwKZdsga0AQqOtNYTQ0bTanK4H8woDgJHKuC8pp4ujrNdS0u4AoDlu8vWjZ+9cApGKARNR2xS7TXbjqKivaBMigJSXwTtXWtKdwKiE5RqDTLOIDaBiD0NATPwy8iR7E1xkcbP9QDTUvBRrqaKPVQAVxD8wp9jH60/wDGjmrD5T+lGCgVzIKAYuLQ/wAw/ShY1pCjqy/rRbmFUiCKrrvBF/lZhrI12PapBb0LFfCfl+oqBas3l3u5vcD9qNcDlYYKQeYkfaoB2aVRvw47/WlVipJwcsOnuKlhTTVGm1NEzq3yqpYexBP7UrYM9qFdw3MEzTrdlh/NQB3Y9qaGj+WhhzMGnhp5UAJr/RaeLnyp34fvTLlr7UA8Oa5lJ50NL0fFoaKt0UARFgVCxeAV2nbrR71w8q4pPQ0A2zhAvM0byxXBdHtTmcDUmgOFO9LyxXA06gyKeKAYydAK6LdOmmu0UAmUGmLbUchS/EL1oLYoHQCaAK6r0pDSgrdPOKcH1oB7TQ3zDYGi5qdFACCnmxp7GKdXDQDcs1y6PSaIKFiZymP71oCPSoGRvzUqtZBYKWO4rptc6KtJmqpJwXKTXhTHNBufWgCO86jfpQmvN2FNTuDTcViEto1x2yqoLEkTAG5MaxQlJt0g1u63WflFFW+eY+lR7KF4KzlIBzyMpB5ATJP2qetsDTeqOaROlkVL3mbKTEiSCNuhO/yp34Vsw9QCQZEEsTplIaYAGukGZGojWZHM6UN3/Lv3rKWR0WSXQFawaqxeWJIA1YkacwuwPcCjxTPVzMfamEjuaylPuXoKR7U10BEEAjoQDTAe1OB7U1IUct21XRQAOgAH6U+m12pTIFFAvWSTOYgRtAI3BnrMSN+dGpRVtT7ikV+HtXQzBwhE+krIMaaMDz31H0FPZwCFJEmSBzIEAmPmPqKmE0y5aVtwDz1APzqyytcyHFNkQ69KNaTuDQvw2XYkjofbkf69afaJ5RFbRmpcjNxaJEVyaE7N2piKTqTBqxAYv2pFqC1s/nrqWDMlpoB2Zu1BxBIGpqUBTMQJU0BV+bSo/kL0pUBYkkDrQjd+VSGqO6daA6a5lpqoBrvUhbgoAJB9gKreE58Rce43/wDNEWlKgi9ME3DOuWRAGkiTqIqZjf4p8hSIOt6GAZbZmBA1Gcgr7ZulWQOm0co9tKxyS6I6IVCN1u/ov5f2+KHTNIkD3pxMD9KZaXmazKHG6sdKF5hPwiKaxLHtyFEvtlEDc/as27V9CyGtA+I603zJ2H1rlizNK9dg5V361SnVskcAa6T3oa2yf6mnMAOdTTAQUsvOg/ilHMaUBsUxUuilkHP+nWpc0gotkwtG9MdgNZoGHtXLgl/SOQ0JPvyFCt4T1+tyY2AED9yao5za8Mffb+ydKXNkg4sAa0HzzuqsQdoBP3qY2FU+oKJHanWroYU0ZG95V8CLS6EAWrjbgKDzJ/YVIsWMoIMSSTpz2Envp9qKuhyn5e1dB5Gr4ofp7p7+ok9RX8Txtu0ua5cW2JiWIAJOwE89DSe0zRUjG4NLqm3cQOuhgiRIMg+81U8ExL579h2d/JYAXHChmzjPEKAIAIho1+Rrqhkt0yjxrTa6cy1tWRM0amFehoFxDtNamQRr2sCuMefKlatxSxPwn++dADzrSqBp0rtAXDPTKYVn4faaKtmBqxNAcGlNbQTG1OdDy1pl65lEtHX6b0BRf4fY2w9q55ZPmPce9dzTobrNkXNs0KoBjb51rDvWH/w0xdp2xOXKDcueYusEpGypyAkH/wC9bYn7VyLdHo8fDRnkq9/VDsRsKSiVPsa78Qih2mjTpVupxgsPXcYvqU8iIp923BzLtzHSnqwYQdv0qlbUyb6iw50iolxIc0YoV13HIium6CNdaPluBwuDKdYrFeJPFyYO7YW4wCOzZzuVGUgMV3KzOvtU3xZx8YWyz7sZW2usM5GmY7AdzFeD+Nccb2J8wtnJVdZUj4QfSRy1O+unyEKOtnTixbamtj6J4TjcNeU3LDKwYkkqf5hocwGs7b9am2hcII0APblXzRwTjNy3OV3TkcjlSR3joJ+teq+DvHjMHXFtBBJQhTmKgTlygamFJ6nMNKOFM1nwknHXDdfU9CW4LQicx6UMszNmyx86HgcZZvqLltlYOJBUzpoeXTMvtNS7jkD0LPfpVGu5xvboE88INd+nOoeDuanlqaLZsH4mOvM1x8RPpT/d09qO9m/YKgmJfVY1Ov0pO3qHt+9NSyqiWoKCTO1HqGxLY1XYpct5WABDjI2sEZQzIR1/mED808qkPbbbNNZD/ETD3Xs2UDZZxNkM4zegEOoY5RPxFftSGRqStF4QUnVmuzd65BJoeDwxVFUuWIABYgSxG5IGgntRVUj+afevQOQKKZeHpOtCOJ5GKj3JIOXSec6fSgH5RSqJ5dz8/wBqVATsqbtmGvU6n2FSbDf+p9z/AN1HurJk6RT/ADSIl9D2/egJDYkDTc9qE6q4M6gggjsdDXWKQSWgbkzERuaxnG/Ehb+HYJVdi+zN7dB96rKSibYcMsr8PuZPC4tcJjM1oMotXnUKdSFk5kMRIIkT3G9eyWMWlwK9tgc6hwJB0PtXhYBNxxzLaAjnIPXQ9+/epHAvErYK8jFzl/iBpBK+oc1ka5gneBXEnWx9Vx/ArPiU094r3PcAedEaG7Hr/Ws/4f47bvA5r6l5g6BFmAAEBMwdwDrry2onBvENrEtcS3mDW2KkEaGCyyrCQR6fvV1I+bnw2SN2uXP5l0pK70mA5afpTRcpH6VNmIjcI3qtx+KC6kwCQPckgCjYi/y5VhfEvFjNzKxWFCKGBAb1MLhAGpOg1HJgRzmnmddDXHj1Mo73GWx9y+i2zcTTIh0GjwpYNGUFUJPPUjfQZjxJZsYTEItz1QJbKF1zNoPLactvKD3mdeuyfiFrBYVLhKm/dAVSQJAO5uEa5SZP0HKvHuPYxrt0sXZ+7DUTqVPsSfv1rWEbfodmTI8a8Jq8D4ctYh81i8MjZj/KChJEBk3I36bUXFeHcRabIUa6pEh0UkZYMz0ICmRruKx2Axz2nD22Ksv96jnXpPhTx7bgHFNkyEnMAzBg2ZSpVV00I6jQfKJRkuRfHna3RH4FxVbC3Llt/LdrbKgKmVJQ6htcpZ1XTQAgb5a2Xgbx0WXJjGCMiKfOYgAgsYDbAGCuo3jWDoazxTw7CXUV7aKzTle/baSCBJzoNGacp03k9YNPi+CXOHlb+rEvaZHVZtFT8SmYgmdQY+EmelE0zpnDHmjcub9/z9t6PbCM4hjz0iu5Ao0E157gOOG3Z/EWi9xDdZzbzBjkeWOYBJXKSwyrOw9RG2n4H4tsYm69m2fUhA9WmYEMZT80RB9+hBM6DycmCcd62LMqzGW+lGiO5/T3p9x6p+NcRFtHh1VtFGxh2+DMOnP2Bqj2M4xcnSJ928Bz15mvGvG/E7uJxLWbdzzLYdVCBvQzyI1Bgk+rnpH0reO+M8RiRlZgkAqypIXddQDu8gnWYG0ayzwxg0NzDM9w5WvMXUaZfJVWB575417jnNTGLvc9fBw/6EXNveme627ZO5Ioy2xQ7V0EAgyDsRRQ1dx8+NGHXX0jWoV7PmBywvXT71Pz0HFN6CTt0+dAAzV2g+Z2pUBJvB5OuYfSD70W2oIloJ6f91MSwoEVUeJsT5VkkH1N6V7E7kewn7VDdKy0IuUkkZrxTxk3GNlD6FPqI/mI/YVH4PwvMZNRuHYUswra4DDhRWKVu2epKSxx0RPNPGHDfw+InXKy+YGOoLAkMu3cb9RVDxZWNxbrepXYEtv6m3DFtmBM69utab/EMOcUVuFvKKJ5YM5eXmZcvsJ57VT4fB24JkglxElWPphmIBgEADbuBXPLaR9LwzcuHg5dikx2N8pcwLZTOmkNO2YH4omfet14D42q2rbWrWrMvnuWAUknKPickM0Ewo1MCBrWI4q3mNcQuDPrHLSDpEDSTPTT2mXwvEXbeDKW7SsrErfIBNxUUggsdcgmYaJ0NKVHPxMJTel+V/n+ep6vhPHGHfEnD/AQJzsQqnoIbWYIkcjIrQ3L06CvEeJBUteZYvi68z8IV1tFVUTyBgJpEggEc42trjl69w8XbJBvro+hAVl1JYHllg/Om7PH4vgo40pQ5cupM8WcQItoVbIA+dswIDKhkIzH4cxCzzgnQ1Urlwdk4y8hEKbVq2xllBY5IL/zNlk+1Ft2HDfiL9xVw9pTDNGZ2t5QblwDdiVgAD2isPxvjVzFvcvJcKQSLaAM3oVSBAj05vMEsYHWrpdCmPHtS+Y7jdl8XimOaXZ8ltAAAtqCSLkrrGoMEwc24NZTjeCs2rwttcByv62gkxJIGkyYgfOtlfxAwWGXDgKt1v4jXGMkMTBhRzy6akQGHePNsYczAgE6ernrzP8AYEfetYFeITSour/BfMh8Owa2VkljGU6kg81+elVr2HtPlYFTE+6kakZdIIn71HsYhrZlWZT2JB+cVp+EeJhAW8ikZSufLoFOhBUDWdNAdYFS7RWLi32YHw9xZ7JY2/UIkozen0glSZ5jlGv1r1Hwt4tt4iyljFG2LhBUKIyNDeksCIDek+lZB+ennV/gFplD4S6xB6jfQGEYR6tW0PQ6iKtOF3Ldtla+oDW2zFlUPmYQA2Un0ga+pSDMnoKo0mdD3Vs9D4n4KC3BfwZyuCCLJdgk7kxrpB+HbU6ionDeOWhee29i5ahi6hbWjGCGctb3E79CesVV8A8RYgYhL9y6lzC3s3qC5fLuElQkTNvZd5Bn6ehXsBbvWMhUGDmGXTK4OjJOxH9RVd4mUp0qnv6mQ4PxLGZr3mGbgnIGRsurHIyruRGWRvIIrzzxvx25cvOrAqWKFlB+IqCFLAEj4TyMbnnXonEsDi7BvO15brsoCMIDqugmDuQSex6ivHcSkXXJOYzvIOYjmCDEf9VCSbs6sEai5Kt9idwvDFjlWdQc+UTA31A5afpWp4Hg0C2mYQWtXHBESA1xVVnjfRY7VjrQIS48xAUHXfOcoUe8z7DtWv8AB7O+R2IP8EoI/lVLkWwe/wAfyVasluacRKsbRouAcfaxc8q4ZQmP9J6jtWw/GuSIED66V51xjCZRmHw7H/1/4rQeFeIm5aNsn1W9J/8AU7VvF9Dw80E1qRsPOMd6j3b7RDRB/wC6gqbwOjAj712+HjM0aRoJParnMSPOWlUXP2rtAau7bDCCBWS8aABrdsaAAmO5P/Fatbw251mPGFo57T9QR9D/AM1SfI6OF/6IBwLD860VsVVcIX0irDFX8iM+VmygnKoBYxyUEiTVVyNp3KVGV/xBKFsOrNknzZfKWyrCg6DU6kaVgsdbOgYkgMFzQx0Ea+o6gKRHbTlNSOLcYuYm+zXCYXNltlYNtBqAVI+Led9tzVn/AA7t23+IUAraAhcqFvURmEAARBIEEHWZrlk7lZ9XwsJYMEU99n+72/KMTxG063GBy+qAYIOWdRJHzqWMFetiVVwioQ3sxXQ5TtJTTvtU/jfqVUW55qAB8pUJyiFIPwgEADQdhqAHE3GXD22ADAKc4GpQyqkkaZQxVe/TeosvpqVk/g2JssuXE2jlQkeiVb1jQxEFc7EnntEjStN4T4CTYuWmc+W14lgpPqQJosjnOWRzAisNc4fctOiKysHJJGwYqDr645E7+mCda3l3jtvD4EtZZjlPqDqAzXHM6TMsNBpoMw6RTqcPHNvF4erXy9fQzXjTjq5kwoRTasZTFv4cyZh6omUBKH5mdaIlqxhMKr3Cwvu4fJ8Jef4mVhOWIMTEKSI11IOEcMFpfx+IYMrS7W1ZUFoSjILiqPWzAghRGsbk6Vbpd4pi/SFVTpAiLSCQBtq2UfM/QanFGNKwOAwrY25cvXJyq2e45G/KDAjb7L71SXcPbIDWjo7MArQDoRodfysk9ya03iviSYe1+CsaxpdcQCxAyqsLuQCJ6ke9YXG+aAi3Awyg5QQQRJ1/QVeCbMMuXQ7SLXEYHMAy65hEqNNNwY061CxeFe3ClRIg6ayDp005/WoeHxTpOVis7wd6vuG+JYhb65gNAw+Id+/KpqSKPLCfNUyu4bxNrLBkboYMxvO3XvW64TxrD4m2LeIyWX9WV4UhZiQC24MkwZBM1m+I8KS4xuW2zzqQp1EiQf3qvv8ADLloyVJCmZjYT6SR/L71Dpl4prbmj0a94Kv5Sli/Ya0cphrajUercAjYAzpry1pvD/GGJwjG3fyEhwhLFswifVliDuTIiQ4rJ8B8U4ixlHmZrakk+Y7EEdFO68oHbbWt/a4ng+IJZVkN1i6o0qVuWwVketIkTGvQnSqO1zLJWvErLHjPF5wJxDM1q6ymDlJ0IEoCYgHYbfvXkGJQBojINQSZOg1gjUzHL2r0n/Ea4HNvDhnti0NS3wOQhZYMeonLExA6V55jrLNdMKV5kHkYAaZJnWdZM7+1IuztwLTi+O5Eu3ywFuRlnSdhMSe2w+lbrwZKoFJkG2G0Byj1tlAJ7E8hOh1rz9QA4FzMBIBgagEiYHMgcutanwvxdA9lEmTntOJGo1a22UdCDP8AqO+tarY5OIeqzclQZU6gyCPeq7gls2sUEOzAr7xqDU17oX1MQANSToAO/Sqq5xTzLytY5SAxUnMTA/hpux05wOtaNpbs870Nv+MUDVgPcx+tM/zJGIUHVtuU85E6t7gR3rNrgXJzXG1J3kNcP/4tjsJ96tcCtlTC/F1Mlj7sdT9aXOT7I5mopd2Wldoeau1qZmku4SdQxFQOJcOdrDBjmZTnU8zG4Pyj6VcMK6pqGrLwlpaZmeEtpVuKgY7C+S+cD+Gx/wBrHkex5VMtvIrNHVLfdHmHjTh62cXm+BL0MzamSD6ieenz9jtTbABfyFf4GuahRIXyspZAw2Iz5h/pIgSRtPF3ARi7YXMVZCWXoZEEMK8vt4sWbzPKzbcBS2ugJAc5duQPWT71zTjTPp+D4hZsCje6X+MtcRh7Je1mKwfLtM6sQqy8tOmggiMpEEHUjSoeJw1iHzXGLsCoUNmAKyRmMZXEKOY9zym8UvYf4LOGOZmMgwA6uSGITUAiIBUALlmOlfb4ZAvMChYghU+LVhqitIGYA6RoYMHWqG1tJPf899iHxWy9pgLgzG4cyMfUuUkZGUgkEH251qMBwi0lu5dxVgm3vaXP8fmDUZVMDTLyjQd6y2GUnLbceqyyHzAPUBMCVB1AJHLnOtWnFosYJWyjzWuKrS0/+MDIyiea9fyk1auxzZ5txpurq/f47FX4p4qb7rYsJltDLFsSSz/CWb8xgAD2q34nft8MsLZSHxFwMWeNbZdSpZTyPwAA8lJ3JpvAwvD7LYq+P411ZtWyIYga6/lE5Ce0aVmMKtzGX2u3dQSSzcieSj7fIVdKzz8kl8vuM4ZhXZ1vOhfUFSf5mmQxPMzOp6a9au+KYHMzEiQxJ1/erJLOkUN7YBiQCdhzPWK0s45vU7Mdj+BDUpp25VQPZYEgqdN9Dp79K9IvWVAJYgR3FRW4Umojl9J3g8varKRSUFRhExDKQQSOYgkdpH98q0/CfEgdDavsyyIFwa6zPq7cvag8S8OT8B2nTb6VQXcI6GGU/wB9qlpMpGcos3nGfDtl7RxFlgFOTVfUslo9guok9qobiXcK4kkMPhIPpKjUMrDedY0+vKr4XxK5ZIa25GvwycrTuGXYg1p8T41a9aazctJDMMpHKNcrAg5gT7VnpaOzHNmm8QYu9ikwloMwFwA3GE5JMKudlXTnuYEjTnWQ8gWGZGQXMjuGcmAYEILcTBHrPMdfhBrXeIsdZs4fD+VbQC7aa5mBY5Wm2ZyARqVABOxJ2isHx/iJuFZWMoGmYkGQIImY9IQc9pkzWcdzph4Mdvp/JBxL+qd51Mnf3jrWi8MYgEl2tKrD4SuhI579KzNm1mIAaCI31AG50FW2CxltGXdiFeGnbcfXQ61tyOHLNzZtL+HGJuAF/wCGoDZeRk6O3XsNgBJ3gW3hzBL57MghLYyg8yx6nt+9ZdMW5xFtbCSb1lDI2jbUciGW58iK3uCsrZVbI1I1c9WNMe+7OSbpEjGYTMAQBI1pWVBIBIkcoj9aKSWG0UK0DnEKSRMa76Hc9N63OVkzyE7fQUqJluflX6/8UqEF0OIKRz9oM/SiW7/SR76frU0WxSIoSiP8QIYAg6Ebgiqu5hWtSVlrf3T36jvV3lHSo+IfLqKq0awm4lejgiRWd8UeErWKUsAEuQdQIDGQR5kanaJ5Sa0xto2q+k89ND7jl8qaVI3Hz3H1rNx7nXizOEtUGeK8bwt6wRh7oIWcw00I+GVP3j+tQuD8Ra04ucg2cTlMPqJ15erYbxXuWLwqXFyuoYdD9flWF8R+AScz4VvVvkc8/wD1bnrB1+tZPGezi/8ARhNVk2+xnLHF3OJfENLocwuZQJUMIBTNoZhe+mpG9Sbty2lkXWZfKS+txdy1xvLnIVOgOqyTH6VneJcLvWJW7aZDBKhhuQRorahj3/4pnD+OMtq7YJBS4jDVZOdlIDLJ9J1AnoKolubZnGUNu32BcV4hdx2ILjSYhR8KLr9efua7buYhGFiyAMoB2EnqSG5Vd8G4aLSDUZmMtrO3TTarNQoMaSfqa2Wx5E8lsZhs2UeZlzxrlJj5TRY60UW66LNTRk2RwoInQiu+Tp/e1SbeHgQJ+ZJ313NOdYFKIsr2w1Av8NVxBUGrSzettOW4hymDBGnLWpATpB259dqkhruYjiHhpYJBy89dfvvVKOGP6WylrczI10B6gabbkV6fgrbsP4lvIZI+IEETodOtTEwgA+EAfKlll4eRhuPYvzfKSwsWFQIoCycwnNpqSSXP+48zWXaySdRpzHcaTXq1/gyM2dba5lIIOWCSPyuCMpnmOlI+ErLku3mZm1PrJ1O/xTNUUa5Gk8s3GmeXi0VXQd/f3/vrU3h3BLuIuKLVoMQOchR3JBEDXrXpmB8CYZTnKtvPqY/oIH1qxu4u3aHlYdV7kDQf1NWSZzTkkV/B+EJg13D32ABPJF6KDsPuT9pNjEDnIk79/eg2bBbV2knflNTbFgDTSOkVolRyyk2FGIA0JJ71P4fcUuuo5/oaqnw5ElIjof2qXwAN5iysamfoauZs0cr1H1pVIilQgmxSihXcSFEnb2NAfHjLmUFugHOgJZqJkzGSO1OsM5EtA7CdPmaITQsCu4YHbQ1W3MQ9smRI6j9xVxNVnEvM2VQ07a/rVWiyYDDY+085SJG4HI915UcEciD9qpcRwXMTAyuI9Q017Ee1Q8Q2IsjfzAOTDX5MNfrNRRqpGixWFS4pW4isp/lYAg/I1nMT4GwJJ9GTzNCAYBMhgVnY+nl30ptnxJGjq6e3qH7H7VPteILbf/Ih7H0n7waq0mbY804+VnlnFeGDC4g2gzMBPqTNmjlkJ56EaaDUe2x4X4QFy1auedeBOVnBO40YAqZnUCdetaey1kNnFlMxn1KBzJJ1jqSfnUs45YMAg8tJAPLSRNUUO52ZuM1pKMa7vuZm7wS8IgoIgsIJJA3CmYk0y7w9wmZkKn8vpknosmD13rVrjFI1OvPTTvGtUS+HMGLgujzJBJANxystIOhPQkVNPoYRnF+b6L+0Y3G3h5otszfxEysqupCyfRlg+pyJmCNu1BxfHbNoBI85QApYsC20TABEbbzJNelrh7AAARABtCDSgW8Bh1ZmVAC2p0HQDTXTbYe/Oq6X3NnxGJrynj3DsfbF1MtpnYttE550EZmGo5COvI6b3hAJkeW6BYgugUv6RrtpGoj3POr48Kwsk+SkmdYUHXeCBpNSHuWl1MDlqf8AmrKJnl4hS5Iy2M4mtu+lk3LK5tIJOadImBCyJAnckVd2ME7QcsHnGx30kjUa01+LYVGLqqZzuyqMx5asB7c6jX/EzN8Cn3P9BUpGEsq6FyuCAHqYDsKj4jitm1osFu2p+Z5VnsTduXdGdo6L6R843qN/lkc2Pzq9GMsjJ+L4w93TYdBt8zzpmHRuZHtFEtYNYotrAkbE/X+tSZtjiDpFTMPa60P/ACxnABLLqplWg6EGPYxB7GrzC4KOVSirZXfg80wT7cqsOHW8rKI66/I1NFo0m9PqIGnf5c6koTMw60qr/wDM7f5k/wB4rlAT+Juch005+1RMAjaQIC6STv8A31qzLqdNPalIHSgHhqY1yhWoOoHzJn6UehKGh67NMYCm5u9CQhoN2wDvTss05loCoxfAUcbf32qg4p4bXaDJ6TW3jvTGtd/rUUSpHml3w4y6qXB6gx+lR3w+KQSLjt2k/vNemtaB3Wo17BIaii2o83HEcQB8bfNR/SuHiuKAkuAOUqK9Abginp9Kh4jw2ppROsxn+Y4o7OPoB+1N/HYmNXM9o/YVqLnhoxGvyNBwnCMpKmSQY13+1KGszb+c27t9TXbWAJ3HzrYLw0dK6cCBpQjUZhcDT0wsb1qhw6nrw4co+k1JFmYTTkfpUywmbkfoa0S4JRvFSEsoKUQ2UNvDH8jVZWMGfy/WrNEFGAqStkSzg9NftUpEinRSC0IOEVHxvwNm20BM8iQKlZa4yCNRI70BV517f38qVWOVegpUBIygaAD2oJwKmZAM9vtUpLYpzaUBHs4bKMqwANgBFJ7bcmjvRwe1cIagI3kvOrD6f8102W/PA7AfvUlhpVfdL5goGkzJM6UJO39dAW9xUfD4hsxRwZ6iduU61YAgD+tQrl7KxaQZiBQkl2omNQehM0bJ2qAudmDZdAOeh1qWrkDUfShDHGyvSmPYH9k1w4nqsVy1jFbQa0B02ehI/vvS8rSpApUFkM2m/N9hQ1wImSST9P0qeaCb3KNaCwbYRDEqDG0ida5cwyncbUcClQgEqdBXStPruWgBeSK75K9BRaZ5Q9qAWUVzLXYpZaAbXM1P8sV3LQDJp0Tode1JKc1AM/Dr+VfpSrueuUBLWumlSoBqU+lSoDhoT0qVCUVPFf5f9QomF+I/L96VKhJZChc6VKhBE4ht86j2P/KP9J/alSoC4Wu0qVCDjVGTcV2lQB6aKVKgFSpUqAVKlSoBrU1K5SoAorhrtKgOLQOIf+Nvb9xSpUBGpUqVAf/Z"
-    
+src="https://sugarandsparrow.s3.us-west-2.amazonaws.com/flour/wp-content/uploads/2025/01/30213142/small-batch-red-velvet-cake-recipe-header3.jpeg"
 alt="Red Velvet cake" 
 
 />
+ <footer class="description">The Grand Red Velvet known for its sharp, distinct red color.
+
+        Contrary to popular belief that Red Velvet is simply dyed Chocolate cake,
+
+        Red Velvet is made of cocoa and its unique flavor profile comes from
+        the mixture of buttermilk 
+        
+        and an interesting ingredient-
+        
+        Vinegar!
+</footer>
